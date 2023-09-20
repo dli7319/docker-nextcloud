@@ -1,4 +1,4 @@
-FROM public.ecr.aws/docker/library/nextcloud:27.0-apache
+FROM public.ecr.aws/docker/library/nextcloud:27.1-apache
 
 RUN set -ex; \
     \

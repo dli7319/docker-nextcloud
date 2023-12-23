@@ -114,7 +114,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           user: ${{ github.actor }}
-          container: ${GITHUB_REPOSITORY#*/}
+          container: docker-nextcloud
           dry-run: false
           keep-last: 2
           prune-untagged: true

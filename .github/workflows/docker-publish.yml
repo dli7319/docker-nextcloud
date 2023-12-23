@@ -114,7 +114,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           user: ${{ github.actor }}
-          container: docker-mediawiki
+          container: ${{ env.IMAGE_NAME }}
           dry-run: false
           keep-last: 2
           prune-untagged: true
